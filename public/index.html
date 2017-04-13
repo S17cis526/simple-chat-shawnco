@@ -6,6 +6,17 @@
   </head>
   <body>
     <h1>Simple Chat Engine</h1>
+    <ul id='message-log'>
+    </ul>
+    <div>
+        <input type='text' id='chat-text' /><br />
+        <button id='chat-send'>SEND</button>
+    </div>
+    <select id='color'>
+        <option value='blue'>Blue</option>
+        <option value='red'>Red</option>
+        <option value='green'>Green</option>
+    </select>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="simple-chat.js"></script>
